@@ -41,7 +41,7 @@ a:hover{ color: #fff;}
 .m_zero{margin: 0 !important;}
 
 /* ============================= header ============================ */
-header{position: relative;  z-index: 3;padding-top: 195px;}
+header{position: relative;  z-index: 3;padding-top: 5%;}
 header h1{float:left;position: relative;width: 326px;padding-top: 5px;}
 header .description{position: absolute;top: 195px;right: 9px;font-size: 17px; line-height: 24px; color: #fff;width: 540px;background: url('../images/description_bg.png') repeat;-webkit-border-radius: 8px;-moz-border-radius: 8px;border-radius: 8px;}
 header .description:before{width: 18px;height: 24px;display: block;position: absolute;left: -18px;top: 19px;background: url('../images/description_bef.png') no-repeat;content: "";}
@@ -56,8 +56,8 @@ header .description .inner{padding:  11px 20px 13px;}
 .menu{position:relative; z-index:1; display: block; float: right;}
 .menuHolder{ position: relative; z-index: 1; margin-right: -3px; float: right; display: inline-block;overflow: hidden; }
 #menu {z-index:3; position:relative; padding-top: 23px; display:block;float: left;}
-#menu > li{position:relative; color: #acb1b3;float: left;margin-left: 6px;width: 140px;}
-#menu > li > a{display: block;  position:relative; z-index: 1;overflow: hidden; font-size: 18px; line-height: 24px; color: #acb1b3;-webkit-border-radius: 7px;-moz-border-radius: 7px;border-radius: 7px;margin: 0 3px 0 0;padding: 10px 0 16px 50px;box-shadow: 4px 4px 0 rgba(0,0,0,0.45), inset 0 0 0 1px rgba(2,11,23,0.7);}
+#menu > li{position:relative; color: #acb1b3;float: left;margin-left: 6px;width: auto;}
+#menu > li > a{display: block;  position:relative; z-index: 1;overflow: hidden; font-size: 18px; line-height: 24px; color: #acb1b3;-webkit-border-radius: 7px;-moz-border-radius: 7px;border-radius: 7px;margin: 0 3px 0 0;padding: 10px 6px 16px 50px;box-shadow: 4px 4px 0 rgba(0,0,0,0.45), inset 0 0 0 1px rgba(2,11,23,0.7);}
 
 #menu>li>a em{width: 30px;height: 30px;position: absolute;top: 11px;left: 15px;z-index: 99;content: "";}
 #menu > li > a strong{display: block;position: absolute;left: 0;top: 0;width:100%;height: 100%;background: #000;opacity: 0.60;-webkit-border-radius: 6px;
@@ -170,7 +170,7 @@ h4{font-weight: 300;font-size: 14px;}
 .skill_label{overflow: hidden;margin-bottom: 5px;}
 .skill_num{display: block;float: right;font-weight: 300;}
 .skill_level{background: #fff;border-radius: 6px;}
-.skill_set{height: 10px;border-radius: 6px;background-color: #1352a2;width: 0;}
+.skill_set{height: 10px;border-radius: 6px;background-color: #f16c47;width: 0;}
 
 .service_list{color: #3e3e3e;font-size: 14px;margin-bottom: 12px;}
 .service_list>li{margin-bottom: 15px;}
