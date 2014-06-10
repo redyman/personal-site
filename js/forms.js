@@ -11,7 +11,7 @@
 					successCl:'success',
 					successShow:'4000',
 					mailHandlerURL:'bat/MailHandler.php',
-					ownerEmail:'support@guardlex.com',
+					ownerEmail:'granredy@gmail.com',
 					stripHTML:true,
 					smtpMailServer:'localhost',
 					targets:'input,textarea',

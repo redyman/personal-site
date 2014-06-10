@@ -238,7 +238,7 @@
 })(jQuery);
 $(function(){
 	$("#twitter").tweet({
-		username: "fanfbmltemplate",
+		username: "@redylg",
 		join_text: "auto",
 		count: 5,
 		auto_join_text_default: "we said,", 

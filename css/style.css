@@ -43,7 +43,7 @@ a:hover{ color: black;}
 /* ============================= header ============================ */
 header{position: relative;  z-index: 3;padding-top: 5%;}
 header h1{float:left;position: relative;width: 326px;padding-top: 5px;}
-header .description{position: absolute;top: 195px;right: 9px;font-size: 17px; line-height: 24px; color: #fff;width: 540px;background: url('../images/description_bg.png') repeat;-webkit-border-radius: 8px;-moz-border-radius: 8px;border-radius: 8px;}
+header .description{position: absolute;top: 35px;right: 9px;font-size: 17px; line-height: 24px; color: #fff;width: 540px;background: url('../images/description_bg.png') repeat;-webkit-border-radius: 8px;-moz-border-radius: 8px;border-radius: 8px;}
 header .description:before{width: 18px;height: 24px;display: block;position: absolute;left: -18px;top: 19px;background: url('../images/description_bef.png') no-repeat;content: "";}
 header .description .inner{padding:  11px 20px 13px;}
 
@@ -74,7 +74,7 @@ header .description .inner{padding:  11px 20px 13px;}
 
 /*================================>> Splash menu <<========================================*/
 
-.splashHolder{position: absolute; display: block; top: 300px;}
+.splashHolder{position: absolute; display: block; top: 100px;}
 .splash_menu {z-index:3; position:relative; margin-top: 111px; display: block;}
 .splash_menu> li{position:relative; color: white;  text-align: left; display: inline-block; width: 216px; height: 216px;padding-bottom: 4px;}
 .splash_menu > li > a{display: block;position:relative;z-index: 1;overflow: hidden;background: url('../images/splash_link.png') repeat;border-radius: 6px;box-shadow: 5px 5px 0 rgba(0,0,0,0.30), 0 0 0 1px rgba(0,0,0,0.7);margin:  1px 4px 4px 2px;font-size: 22px; line-height: 27px; color: #bfb3ad;text-align: center;padding: 61px 0 58px;overflow: hidden;}
@@ -249,7 +249,7 @@ height: 200px;}
 /* ============================= footer ====================== */
 footer{position: relative; width: 100%; text-align: center; z-index: 1; padding-bottom: 10px; margin: 0px 0px 0;font-size: 14px;line-height: 20px;color: #fff;}
 
-.splash_footer{padding-top: 112px;}
+.splash_footer{padding-top: 12px;}
 .splash_footer, .footer{display: none;}
 .splash_footer, .footer .privacy{opacity: 0.5;}
 .footer{overflow: hidden;}
